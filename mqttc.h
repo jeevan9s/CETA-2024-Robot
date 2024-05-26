@@ -19,8 +19,8 @@
 /*** Include Files ***********************************************************/
 
 // Publish & Subscribe topics
-#define PUB_TOPIC_AIO_MONITOR_FEEDS   "Jeevan9/groups/monitor" // (EDIT) Adafruit Group Topic ID
-#define SUB_TOPIC_REMOTE_PUSHBUTTON   "Jeevan9/feeds/control.remotepushbutton" // (EDIT) Adafruit Feed Topic ID
+#define PUB_TOPIC_AIO_MONITOR_FEEDS   "" // (EDIT) Adafruit Group Topic ID
+#define SUB_TOPIC_REMOTE_PUSHBUTTON   "" // (EDIT) Adafruit Feed Topic ID
 
 /*** Macros ******************************************************************/
 
