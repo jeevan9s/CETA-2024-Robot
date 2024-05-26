@@ -31,17 +31,17 @@
 /*** Global Variable Declarations *********************************************/
 
 // WiFi Parameters
-const char ssid[] = "SM-G990W6139";              // (EDIT) SSID of desired Access Point
-const char pass[] = "mjko1170";        // (EDIT) Required Passphrase (WPA2/Personal)
+const char ssid[] = "";              // (EDIT) SSID of desired Access Point
+const char pass[] = "";        // (EDIT) Required Passphrase (WPA2/Personal)
 
 // TCP Client Connection Parameters 
 const char broker[] = "io.adafruit.com";    // server IP address or hostname
 int port = 1883;                            // server port number
 
 // MQTT Client Session Parameters
-const char clientID[] = "a16b8b81-5bab-42b9-9959-0a63cfc9e64c";        // (EDIT) ClientID (use https://www.guidgenerator.com/online-guid-generator.aspx)
-const char userName[] = "Jeevan9";  // (EDIT) MQTT User Name
-const char userPass[] = "aio_YgrM57d1F6XsPwBRZGn1O8S2m3ce";   // (EDIT) MQTT User Password
+const char clientID[] = "";        // (EDIT) ClientID (use https://www.guidgenerator.com/online-guid-generator.aspx)
+const char userName[] = "";  // (EDIT) MQTT User Name
+const char userPass[] = "";   // (EDIT) MQTT User Password
 
 // MQTT Client Publish Parameters
 String pubTopicAIOMonitorFeeds = PUB_TOPIC_AIO_MONITOR_FEEDS; // (EDIT in mqttc.h) AIO monitor group topic ID 
